@@ -9,23 +9,10 @@ import {
   Settings,
   UserCog,
   Palette,
-  Building2,
 } from 'lucide-react'
 import { type SidebarData } from '../types'
 
 export const sidebarData: SidebarData = {
-  user: {
-    name: 'Admin Masjid',
-    email: 'admin@masjid.local',
-    avatar: '/avatars/shadcn.jpg',
-  },
-  teams: [
-    {
-      name: 'Masjid Sayyidina Abubakar',
-      logo: Building2,
-      plan: 'Sistem Manajemen',
-    },
-  ],
   navGroups: [
     {
       title: 'Umum',
